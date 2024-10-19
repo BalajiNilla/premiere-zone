@@ -139,7 +139,3 @@ spring.jpa.properties.hibernate.format_sql=true
 ## Contributing
 
 Feel free to submit issues and pull requests. Contributions are welcome!
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
