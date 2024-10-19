@@ -59,6 +59,27 @@ For Gradle:
 ```bash
 ./gradlew build
 ```
+### 4. Import prem-stats.csv
+- create a table in Psql using following commands
+- CREATE TABLE player_stats (
+    player_name VARCHAR(100),
+    nation VARCHAR(50),
+    position VARCHAR(10),
+    age INTEGER,
+    matches_played INTEGER,
+    starts INTEGER,
+    minutes_played FLOAT,
+    goals FLOAT,
+    assists FLOAT,
+    penalties_scored FLOAT,
+    yellow_cards FLOAT,
+    red_cards FLOAT,
+    expected_goals FLOAT,
+    expected_assists FLOAT,
+    team_name VARCHAR(100)
+
+);
+- import tghe csv file into that table
 
 ### 4. Run the Application
 
