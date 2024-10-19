@@ -81,7 +81,7 @@ For Gradle:
 );
 - import tghe csv file into that table
 
-### 4. Run the Application
+### 5. Run the Application
 
 You can run the application using the following command:
 
